@@ -25,7 +25,7 @@ $answerbtn.addEventListener('click',e=>{
         advice = " 영양가 있는 식사와 함께 적절한 운동을 추천드립니다! "
     }else if (bmi < 24.9) {
         status = " 정상 ";
-        advice = " 멋지십니다 . 식단관리 및 몸 관리를 잘하고 계시네요! "
+        advice = " 정말좋아요! 몸 관리를 잘하고 계시네요! "
     }else if ( bmi < 29.9){
         status = " 과체중 "
         advice = " 규칙적인 운동을 시작하고, 건강한 식습관을 가지시는걸 추천드립니다! "
