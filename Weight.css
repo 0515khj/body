@@ -1,0 +1,55 @@
+::placeholder { 
+    color: #fff;
+}
+
+html, body {
+    overflow: hidden; 
+}
+img{ width:100%; height: 100vh;
+}
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.inner {
+    position: absolute; 
+    top: 50%; left: 50%;  
+    transform: translate(-50%,-50%);  
+    display:flex; 
+    flex-direction: column;
+}
+.inner h2{ text-align: center; font-size: 50px; color: #e5e5e5; font-family: 'Courier New', Courier, monospace; font-style: italic; font-weight: 900; }
+input { max-width: 250px; height: 50px; padding-left: 30px; background:none; 
+    border: none; border-bottom: 1px solid #fff;
+font-size: 20px;
+margin-bottom: 20px; 
+color: aquamarine;
+}
+input:first-of-type { margin-top: 30px;}
+.inner .answerbtn { width: 150px; height: 30px; border-radius: 20px;  border: none; 
+    cursor: pointer; font-size: 15px; 
+display: block; margin-left: 60px; margin-top: 20px; margin-bottom: 100px;
+}
+.inner .answerbtn:hover {
+    background: #000; color: #fff;
+}
+
+.inner2 {
+    position: absolute; 
+    top: 80%; left: 55%;  
+    transform: translate(-55%,-80%);  
+    margin-top: 15px;
+}
+.inner2 .hewe {color:beige; font-size: 25px; border-bottom: 1px dotted #fff; 
+    padding-bottom: 10px; margin:10px;}
+.inner2 .state { color: #FBE9E7; font-size: 25px; margin-top: 30px;}
+.inner2 .ment {color: #FBE9E7; font-size: 25px; width: 500px;}
+
+
+#Clock {color: #5D4037;
+    font-size: 110px;
+font-weight: 900;
+}
+.Clock {width: 200px; height: 100px; text-align: center; background: none; padding-top: 10px;
+position: absolute; top: 5%; left:43% ; z-index: 1;}

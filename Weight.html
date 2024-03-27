@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Weight.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>몸무게 관리</title>
+</head>
+<body>
+        <!-- 몸무게 / 키 입력하고
+            클릭 누르면 밑에 저체중 정상 과체중 비만  나오고
+            그밑에 각 상태마다 어떤 관리가 추천되는지 멘트나오게 
+        -->
+
+        
+        <div class="main">
+
+            <div class="Clock">
+                <div id="Clock">00:00</div>
+            </div>
+            
+            <img src="./images/bg.jpg" alt="">
+
+            <div class="inner">
+                <h2>Body-Check #</h2>
+                <input type="number" name="" id="" class="height" placeholder="키를 입력해주세요" > <!-- 키 -->
+                <input type="number" name="" id="" class="weight" placeholder="몸무게를 입력해주세요"> <!-- 몸무게 -->
+                <button class="answerbtn">click</button>
+            </div>
+
+            <div class="inner2">
+                <span class="hewe"></span>
+                <div class="state"></div>
+                <div class="ment"></div>
+            </div>
+        </div>
+
+        <script src="Weight.js"></script>
+</body>
+</html>
